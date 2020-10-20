@@ -24,6 +24,15 @@ the test datasets for Logistic Regression, Random Forest, and Linear
 Regression Models respectively.
 
 
+In Classification problems, for the Logistic Regression model, FEM
+achieves an average predictive performance improvement of 2.1% and
+3.4% and maximal performance improvement of 8.3% and 18.3% for QSA
+and PB respectively on the datasets. For the Random Forest model, the
+average performance improvement achieved is 1.9% and 0.9% and the
+maximum improvement achieved is 5.9% and 4% using QSA and PB
+respectively. In Regression problems, the average rise in the predictive
+score is 2.3%, 1.8%, and 3.6%, and the maximum rise is 6.5%, 11.7%,and 11.4% with respect to QSA, PB, and CP.
+
 **NOTE**
 1. The folder 'Creating training datasets for MLPs' contains two files, which have the code that we used to create training datasets for MLPs corresponding to different feature transformation techniques like QSA and Percentile Binning.
 2. The folder 'MLP models' contains two files which have the code for creating MLPs for Regression Problems corresponding to a particular feature transformation techniques. In this project, we had created around around 60 MLPs in total for both classification and regression problem with respect to different thresholds, feature representation techniques and ML models. All the MLPS had a similar architecture with variation in parameters and the number of layers.
