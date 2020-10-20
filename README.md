@@ -27,4 +27,4 @@ Regression Models respectively.
 **NOTE**
 1. The folder 'Creating training datasets for MLPs' contains two files, which have the code that we used to create training datasets for MLPs corresponding to different feature transformation techniques like QSA and Percentile Binning.
 2. The folder 'MLP models' contains two files which have the code for creating MLPs for Regression Problems corresponding to a particular feature transformation techniques. In this project, we had created around around 60 MLPs in total for both classification and regression problem with respect to different thresholds, feature representation techniques and ML models. All the MLPS had a similar architecture with variation in parameters and the number of layers.
-3. The foldet 'Testing' contains files
+3. The folder 'Testing' contains files which have the code for testing our model for both Regression and Classification tasks with respect to different feature transformation techniques.
