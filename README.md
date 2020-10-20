@@ -1,5 +1,9 @@
 # Automating-Feature-Engineering
-In this project, we present the Feature Engineering Machine (FEM), which automates the feature engineering process in classication and re-
-gression problems. It is a meta-learning approach that learns from over a hundred meta-training datasets about the usefulness of a transformation
+In this project, we present the Feature Engineering Machine (FEM), which automates the feature engineering process in classification and regression problems. It is a meta-learning approach that learns from over a hundred meta-training datasets about the usefulness of a transformation
 in enhancing the relationship between a feature and response variable to improve model performance. FEM is trained to provide the most suitable recommendations
 for transforming the original features in a new dataset, based on learning from past feature engineering experiences.
+
+This project addresses how meta-learning can be used to automate feature engineering. It also analyzes dierent techniques to achieve informative representation of feature-response distributions that would improve its mapping with the usefulness of transformations. In addition, it extends the notion of learning feature engineering from past experiences in Classification problems to Regression problems and assesses the implications of generalizing this concept.
+
+
+FEM is trained using Random Forest and Logistic Regression as Classification models, and Linear Regression as a Regression model. Quantile Sketch Array(QSA), Percentile Binning(PB), and Conditional Probability(CP) are numerous techniques that are used to capture the feature-response distribution. The main function of FEM is to improve the predictive performance of the models by applying different transformations to the features in a dataset. For Classification and Regression Problems, model performance is evaluated using F1-score and R-squared score respectively. FEM includes 5 unary and 3 binary transformations. Every transformation has a corresponding Multi-Layer Perceptron (MLP) which is a binary classier that predicts the usefulness of a transformation on a feature.
